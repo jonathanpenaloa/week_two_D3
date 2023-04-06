@@ -58,6 +58,18 @@ span {
     font-weight: bold;
 }
 
+.image-continer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.image-continer > img {
+    border: 3px solid rgba(92, 7, 7, 0.955);
+    padding: 0;
+    margin: 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -100,5 +112,11 @@ button {
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+    }
+
+    .image-continer {
+        display: flex;
+        flex-wrap: wrap;
+
     }
 }
