@@ -93,3 +93,12 @@ button {
     text-decoration: none;
     font-size: 15px;
 }
+
+@media screen and (max-width: 540px) {
+    section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
